@@ -98,8 +98,8 @@
     font-size: 15px;
     background-color: rgb(255, 234, 234);
     top: 75px;
-    /* left: 280px; */
-    left: 350px;
+     left: 280px; 
+   
     text-align: center;
     display: block;
     /* transform: translateY(60%); */
