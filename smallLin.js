@@ -4,8 +4,22 @@ tool__search.addEventListener('click', function() {
 
 });
 $(document).ready(function() {
-    $('.dropDown').hide();
+    $('.dropDown__class').hide();
+    $('.dropDown__service').hide();
+
     $('.dropDown__full').hide();
+
+
+
+    $('.express').hover(function() {
+        $(this).children('i').eq(0).addClass('hover_bigger');
+
+        console.log(123465)
+    }, function() {
+        $(this).children('i').eq(0).removeClass('hover_bigger');
+
+    });
+
 
     $('.ham').on('click', function() {
         $('header').addClass('none');
@@ -17,10 +31,14 @@ $(document).ready(function() {
 
 
     $('.subMenu ').hover(function() {
-        $('.dropDown').slideDown(200);
+        // $('.dropDown').slideDown(200);
+        $(this).children('div').eq(0).slideDown(200);
+
+
+
 
     }, function() {
-        $('.dropDown').toggle();
+        $(this).children('div').eq(0).toggle();
 
     });
 

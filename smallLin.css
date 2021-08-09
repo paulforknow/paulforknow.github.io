@@ -93,14 +93,27 @@
     font-family: 'Gill Sans';
 }
 
-.dropDown {
+.dropDown__class {
     position: absolute;
     margin: auto;
     width: 120px;
     font-size: 15px;
     background-color: rgb(255, 234, 234);
     top: 75px;
-    left: 280px;
+    left: 275px;
+    text-align: center;
+    display: block;
+    /* transform: translateY(60%); */
+}
+
+.dropDown__service {
+    position: absolute;
+    margin: auto;
+    width: 120px;
+    font-size: 15px;
+    background-color: rgb(255, 234, 234);
+    top: 75px;
+    left: 580px;
     text-align: center;
     display: block;
     /* transform: translateY(60%); */
