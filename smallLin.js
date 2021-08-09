@@ -5,6 +5,8 @@ tool__search.addEventListener('click', function() {
 });
 $(document).ready(function() {
     $('.dropDown').hide();
+    $('.dropDown__full').hide();
+
     $('.ham').on('click', function() {
         $('header').addClass('none');
         console.log(111);
@@ -31,6 +33,14 @@ $(document).ready(function() {
         $('.tool__kart').addClass('background-gredient-2 ');
     }, function() {
         $('.tool__kart').removeClass('background-gredient-2 ');
+    });
+
+    $('.ecommerce').hover(function() {
+        $('.dropDown__full').slideDown(200);
+
+    }, function() {
+        $('.dropDown__full').toggle();
+
     });
 
 
