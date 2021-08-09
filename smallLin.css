@@ -100,7 +100,7 @@
     font-size: 15px;
     background-color: rgb(255, 234, 234);
     top: 75px;
-    left: 275px;
+    left: 22.5%;
     text-align: center;
     display: block;
     /* transform: translateY(60%); */
@@ -113,7 +113,7 @@
     font-size: 15px;
     background-color: rgb(255, 234, 234);
     top: 75px;
-    left: 580px;
+    left: 47%;
     text-align: center;
     display: block;
     /* transform: translateY(60%); */
