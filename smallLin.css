@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.socialIcon {
+    width: 50px;
+}
+
 .mobileMenu {
     display: none;
 }
@@ -244,7 +248,7 @@
     height: 250px;
     width: 100%;
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(230, 227, 227);
 }
@@ -254,7 +258,9 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    align-content: space-between;
     height: 110px;
+    width: 550px;
 }
 
 .item {

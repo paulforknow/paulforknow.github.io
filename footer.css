@@ -1,0 +1,28 @@
+.footer {
+    border: 1px solid #000;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 380px;
+    left: 0;
+    background-color: rgb(206, 206, 206);
+}
+
+.socialIcon {
+    width: 50px;
+    border-radius: 30px;
+}
+
+.containner {
+    padding-top: 12px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.containner__text {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 16px;
+}
