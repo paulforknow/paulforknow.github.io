@@ -4,7 +4,6 @@
             height: 200px;
             position: relative;
             bottom: 0;
-            left: 0;
             background-color: rgb(206, 206, 206);
         }
         
@@ -35,7 +34,7 @@
         .express {
             width: 400px;
             position: relative;
-            top: 300px;
+            top: 400px;
             height: 300px;
             display: inline-flex;
             flex-direction: column;
@@ -70,7 +69,7 @@
         
         .express__hint {
             position: relative;
-            top: 300px;
+            top: 415px;
             left: 45%;
             width: 100px;
             display: inline-flex;
@@ -89,6 +88,58 @@
         .express__hint>span {
             font-size: 16px;
             text-align: center;
+        }
+        
+        img[src="pic/smallLin02.png"] {
+            position: relative;
+            top: 120px;
+            z-index: 2;
+        }
+        
+        img[src="pic/twice2.jpg"] {
+            width: 100vw;
+            height: 380px;
+        }
+        
+        .bannerMiddle {
+            background: url("pic/twice2.jpg");
+            background-attachment: fixed;
+            position: relative;
+            top: 300px;
+            left: 0px;
+            width: 100%;
+            height: 50vh;
+        }
+        
+        .bannerFixed {
+            position: relative;
+            bottom: 300px;
+            background: url(pic/banner01.jpg);
+            width: 100vw;
+            height: 50vh;
+            background-attachment: fixed;
+        }
+        
+        .ad {
+            border: 1px solid #000;
+            position: relative;
+            top: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            height: 300px;
+            width: 90%;
+            margin: auto;
+        }
+        
+        .ad img {
+            width: 100px;
+        }
+        
+        .ad__content {
+            text-decoration: none;
+            width: 300px;
+            background-color: rgb(255, 204, 204);
         }
         
         @media(max-width:768px) {
